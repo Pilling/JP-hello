@@ -4,10 +4,10 @@
     <button mat-icon-button>
       <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
     </button>
-    <h2>JP : Hello You</h2>
+    <h2>JP : Hello</h2>
     <span class="menu-spacer"></span>
     <div>
-      <span style="font-size: 14px; margin-left: 50mm"> A place to dihat I'm up to and when...</span>
+      <span style="font-size: 14px; margin-left: 50mm"> What I'm up to and when...</span>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
@@ -16,6 +16,7 @@
   <mat-sidenav #sidenav>
     <mat-nav-list>
 
+      <a mat-list-item [routerLink]="'/'"> Home </a>
       <a mat-list-item [routerLink]="'/about'"> About </a>
       <a mat-list-item [routerLink]="'/climbing'"> Climbing</a>
       <a mat-list-item [routerLink]="'/writing'"> Writing </a>
