@@ -8,13 +8,15 @@
       <mat-card-subtitle>Developer, Climber, Writer, Wonderer</mat-card-subtitle>
     </mat-card-header>
     <!--Insert a grid list here of different images of climbing, coding, writing, projects, etc-->
-    <mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-list cols="4" rowHeight="200px">
         <mat-grid-tile
             *ngFor="let tile of tiles"
             [colspan]="tile.cols"
             [rowspan]="tile.rows"
             [style.background]="tile.color">
           {{tile.text}}
+          <!-- image tag for each grid item -->
+          <img src="https://trello-attachments.s3.amazonaws.com/5d8aee7aa4124f73311be1b8/5e336d272f475c4bcffde96c/2928aeb07cfe3fafda9b152e2b01bd1b/nathan-anderson-kTaIjvHsyJg-unsplash.jpg">
         </mat-grid-tile>
       </mat-grid-list>
     <!--Insert a grid list here of different images of climbing, coding, writing, projects, etc-->
