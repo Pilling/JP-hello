@@ -8,7 +8,9 @@ import { ClimbingComponent } from './climbing/climbing.component';
 import { WritingComponent } from './writing/writing.component';
 
 
+
 const routes: Routes = [
+  { path: '', component: AboutComponent},
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'projects', component: ProjectsComponent },

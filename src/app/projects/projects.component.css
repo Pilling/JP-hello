@@ -1,3 +1,17 @@
+
 .tab {
     margin-left: 6.5em
    }
+
+.tab2 {
+    display:flex;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+   .profile-card {
+    max-width: 600px;
+  }
+  .profile-header-image {
+    background-image: url('https://trello-attachments.s3.amazonaws.com/5d8aee7aa4124f73311be1b8/5e336d272f475c4bcffde96c/9a2c53deb55addc19cb4a24785acec3f/profilLV.jpg');
+    background-size: cover;
+  }
